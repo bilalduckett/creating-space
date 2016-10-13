@@ -1,0 +1,16 @@
+.page-about{
+	.strong{
+		font-family: $type-alt;
+		font-weight: bold;
+		font-size: 30px;
+		padding: 0 20px;
+		border-left: 4px solid $color-primary;
+	}
+	blockquote{
+		background : $gray;
+		text-align: center;
+		font-family: $type-serif;
+		padding: 20px;
+		border-left: 4px solid $color-primary-alt;
+	}
+}

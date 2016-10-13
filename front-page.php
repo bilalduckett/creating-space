@@ -17,6 +17,8 @@
     </div>
   </div>
 
+
+
   <?
 
     if( !empty($image) ): ?>
@@ -36,11 +38,13 @@
         </div>
         <div class="row media-outlets">
           <div class="container">
-            <ul class="instructions">
-              <li>Live.</li>
-              <li>Learn.</li>
-              <li>Listen.</li>
-            </ul>
+            <a href="#subscribe-modal" class="email-links modal-trigger">
+              <ul class="instructions">
+                <li>Live.</li>
+                <li>Learn.</li>
+                <li>Listen.</li>
+              </ul>
+            </a>
             Find us on your favorite podcasting platform
           <ul class="image-links">
               <li><a href="https://itunes.apple.com/us/podcast/creating-space-w-wes-knight/id1120265586"><img src="<?= asset('/img/apple.svg') ?>" alt="iTunes"/></a></li>
@@ -68,6 +72,11 @@
 
         localStorage.setItem('popState', 'shown')
       }
+    });
+
+    jQuery(document).ready(function(){
+      // the "href" attribute of .modal-trigger must specify the modal ID that wants to be triggered
+      jQuery('.modal-trigger').leanModal();
     });
   </script>
 </div>

@@ -1,0 +1,10 @@
+.page-contact{
+	#thankyou-modal {
+		.modal, .modal-footer, .btn{float:none !important;}
+	}
+
+	.wpcf7-submit{
+		background-color: transparent;
+		border: none;
+	}
+}

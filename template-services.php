@@ -27,18 +27,18 @@
 
   <div class="service-grid">
     <div class="row center-align">
-      <div class="col s12 m6">
+      <div class="col s12 m8 push-m2">
         <div class="grid-element top-left"><?php the_field('top_left'); ?></div>
       </div>
-      <div class="col s12 m6">
+      <div class="col s12 m8 push-m2">
         <div class="grid-element top-right"><?php the_field('top_right'); ?></div>
       </div>
-      <div class="col s12 m6">
+      <div class="col s12 m8 push-m2">
         <div class="grid-element bottom-left"><?php the_field('bottom_left'); ?></div>
       </div>
-      <div class="col s12 m6">
-        <div class="grid-element bottom-right"><?php the_field('bottom_right'); ?></div>
-      </div>
+<!--      <div class="col s12 m6">-->
+<!--        <div class="grid-element bottom-right">--><?php //the_field('bottom_right'); ?><!--</div>-->
+<!--      </div>-->
     </div>
   </div>
 

@@ -27,7 +27,16 @@
     </div>
 
     <div class="row">
-      <?php the_field('body_text'); ?>
+      <div class="col s12 m6">
+        <?php the_field('body_text'); ?>
+      </div>
+      <div class="col s12 m6">
+        <div class="facebook-ad">
+          <h3>We live stream each of our weekly podcasts on Facebook Live.</h3>
+          
+          <h3>Tune in <a href="https://www.facebook.com/wes.knight/">here</a>.</h3>
+        </div>
+      </div>
     </div>
 
 

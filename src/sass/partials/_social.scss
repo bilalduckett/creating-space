@@ -1,0 +1,17 @@
+.facebook-ad{
+	position: relative;
+	top: 60px;
+	text-align: center;
+	font-family: $type-alt;
+	color: $color-primary;
+
+	h3 {
+		line-height: 60px;
+		word-spacing: 10px;
+	
+		a:hover{
+			color: $color-secondary-alt;
+			transition: color $transition;
+		}
+	}
+}
